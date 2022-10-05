@@ -1,0 +1,40 @@
+.Checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.total {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: bisque;
+  border-radius: 20px;
+}
+
+.ordertable {
+  width: 65vw;
+  justify-content: space-evenly;
+  max-height: 70vh;
+  height: fit-content;
+  padding: 10px;
+  overflow: auto;
+  background-color: bisque;
+  border-radius: 20px;
+}
+.ordertable td {
+  border-bottom: 1px solid black;
+}
+.total button {
+  background-color: blue;
+  color: white;
+  padding: 6px 20px;
+  border: transparent;
+  border-radius: 15px;
+}
+
+.total button:hover {
+  background-color: green;
+  cursor: pointer;
+}

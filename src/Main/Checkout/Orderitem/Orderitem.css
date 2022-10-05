@@ -1,0 +1,39 @@
+.deletebtn {
+  color: brown;
+}
+.deletebtn:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.quantity {
+  background-color: gray;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  padding: 1px;
+  margin: 25px auto;
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-around;
+}
+.plus {
+  padding: 1px 8px;
+}
+.minus {
+  padding: 1px 8px;
+}
+.plus:hover {
+  background-color: green;
+}
+.minus:hover {
+  background-color: red;
+}
+.orderqnty {
+  background-color: white;
+  color: black;
+  padding: 3px 10px;
+}

@@ -1,0 +1,27 @@
+.productimg {
+  height: 80px;
+  margin: 5px;
+}
+.instock {
+  color: green;
+}
+.notavail {
+  color: red;
+}
+.productprise {
+  color: blue;
+}
+.numinput input {
+  width: 35px;
+}
+input.check {
+  width: 30px;
+  transform: scale(1.5);
+}
+.ordericon {
+  color: white;
+  padding: 2px;
+  font-size: 0.75rem;
+  transform: scale(1.5);
+  background-color: black;
+}
